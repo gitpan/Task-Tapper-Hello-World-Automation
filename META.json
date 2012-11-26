@@ -28,8 +28,10 @@
       },
       "runtime" : {
          "requires" : {
+            "Tapper::Installer" : "0",
             "Tapper::MCP" : "0",
             "Tapper::MCP::MessageReceiver" : "0",
+            "Tapper::PRC" : "0",
             "Task::Tapper::Hello::World" : "0",
             "strict" : "0",
             "warnings" : "0"
@@ -54,7 +56,7 @@
          "web" : "http://github.com/tapper/Task-Tapper-Hello-World-Automation"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.016002"

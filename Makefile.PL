@@ -22,13 +22,15 @@ my %WriteMakefileArgs = (
   "LICENSE" => "open_source",
   "NAME" => "Task::Tapper::Hello::World::Automation",
   "PREREQ_PM" => {
+    "Tapper::Installer" => 0,
     "Tapper::MCP" => 0,
     "Tapper::MCP::MessageReceiver" => 0,
+    "Tapper::PRC" => 0,
     "Task::Tapper::Hello::World" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

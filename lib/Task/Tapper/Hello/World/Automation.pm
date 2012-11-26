@@ -1,13 +1,13 @@
 use strict;
 use warnings;
 package Task::Tapper::Hello::World::Automation;
-# git description: 9a7f21c
+# git description: v0.001-1-g9267b85
 
 BEGIN {
   $Task::Tapper::Hello::World::Automation::AUTHORITY = 'cpan:TAPPER';
 }
 {
-  $Task::Tapper::Hello::World::Automation::VERSION = '0.001';
+  $Task::Tapper::Hello::World::Automation::VERSION = '0.002';
 }
 # ABSTRACT: Tapper - The easiest start for automation without hassle (hopefully)
 
@@ -21,7 +21,7 @@ Task::Tapper::Hello::World::Automation - Tapper - The easiest start for automati
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 TASK CONTENTS
 
@@ -32,6 +32,10 @@ version 0.001
 =head3 L<Tapper::MCP>
 
 =head3 L<Tapper::MCP::MessageReceiver>
+
+=head3 L<Tapper::PRC>
+
+=head3 L<Tapper::Installer>
 
 1;
 

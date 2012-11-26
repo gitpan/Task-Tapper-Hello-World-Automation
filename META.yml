@@ -14,8 +14,10 @@ meta-spec:
   version: 1.4
 name: Task-Tapper-Hello-World-Automation
 requires:
+  Tapper::Installer: 0
   Tapper::MCP: 0
   Tapper::MCP::MessageReceiver: 0
+  Tapper::PRC: 0
   Task::Tapper::Hello::World: 0
   strict: 0
   warnings: 0
@@ -23,7 +25,7 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Task-Tapper-Hello-World-Automation
   homepage: http://metacpan.org/release/Task-Tapper-Hello-World-Automation
   repository: git://github.com/tapper/Task-Tapper-Hello-World-Automation.git
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   perl:
     version: 5.016002
